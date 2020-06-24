@@ -13,8 +13,9 @@
 		3D09ED642492ACDA00DCAFE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D09ED622492ACDA00DCAFE5 /* Main.storyboard */; };
 		3D09ED662492ACDB00DCAFE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D09ED652492ACDB00DCAFE5 /* Assets.xcassets */; };
 		3D09ED692492ACDB00DCAFE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D09ED672492ACDB00DCAFE5 /* LaunchScreen.storyboard */; };
-		3D09ED742492ACDB00DCAFE5 /* LXODTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D09ED732492ACDB00DCAFE5 /* LXODTestAppTests.swift */; };
-		3D09ED7F2492ACDB00DCAFE5 /* LXODTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D09ED7E2492ACDB00DCAFE5 /* LXODTestAppUITests.swift */; };
+		3D09ED8D24A13AD900DCAFE5 /* BMW.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D09ED8C24A13AD900DCAFE5 /* BMW.mp4 */; };
+		3D09ED8E24A13AD900DCAFE5 /* BMW.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D09ED8C24A13AD900DCAFE5 /* BMW.mp4 */; };
+		3D09ED8F24A13AD900DCAFE5 /* BMW.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3D09ED8C24A13AD900DCAFE5 /* BMW.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +45,8 @@
 		3D09ED682492ACDB00DCAFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D09ED6A2492ACDB00DCAFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D09ED6F2492ACDB00DCAFE5 /* LXODTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXODTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D09ED732492ACDB00DCAFE5 /* LXODTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXODTestAppTests.swift; sourceTree = "<group>"; };
-		3D09ED752492ACDB00DCAFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D09ED7A2492ACDB00DCAFE5 /* LXODTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXODTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D09ED7E2492ACDB00DCAFE5 /* LXODTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXODTestAppUITests.swift; sourceTree = "<group>"; };
-		3D09ED802492ACDB00DCAFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D09ED8C24A13AD900DCAFE5 /* BMW.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BMW.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				3D09ED5B2492ACDA00DCAFE5 /* LXODTestApp */,
-				3D09ED722492ACDB00DCAFE5 /* LXODTestAppTests */,
-				3D09ED7D2492ACDB00DCAFE5 /* LXODTestAppUITests */,
 				3D09ED5A2492ACDA00DCAFE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +95,7 @@
 		3D09ED5B2492ACDA00DCAFE5 /* LXODTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D09ED8C24A13AD900DCAFE5 /* BMW.mp4 */,
 				3D09ED5C2492ACDA00DCAFE5 /* AppDelegate.swift */,
 				3D09ED5E2492ACDA00DCAFE5 /* SceneDelegate.swift */,
 				3D09ED602492ACDA00DCAFE5 /* ViewController.swift */,
@@ -108,24 +105,6 @@
 				3D09ED6A2492ACDB00DCAFE5 /* Info.plist */,
 			);
 			path = LXODTestApp;
-			sourceTree = "<group>";
-		};
-		3D09ED722492ACDB00DCAFE5 /* LXODTestAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				3D09ED732492ACDB00DCAFE5 /* LXODTestAppTests.swift */,
-				3D09ED752492ACDB00DCAFE5 /* Info.plist */,
-			);
-			path = LXODTestAppTests;
-			sourceTree = "<group>";
-		};
-		3D09ED7D2492ACDB00DCAFE5 /* LXODTestAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3D09ED7E2492ACDB00DCAFE5 /* LXODTestAppUITests.swift */,
-				3D09ED802492ACDB00DCAFE5 /* Info.plist */,
-			);
-			path = LXODTestAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D09ED8D24A13AD900DCAFE5 /* BMW.mp4 in Resources */,
 				3D09ED692492ACDB00DCAFE5 /* LaunchScreen.storyboard in Resources */,
 				3D09ED662492ACDB00DCAFE5 /* Assets.xcassets in Resources */,
 				3D09ED642492ACDA00DCAFE5 /* Main.storyboard in Resources */,
@@ -242,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D09ED8E24A13AD900DCAFE5 /* BMW.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D09ED8F24A13AD900DCAFE5 /* BMW.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D09ED742492ACDB00DCAFE5 /* LXODTestAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D09ED7F2492ACDB00DCAFE5 /* LXODTestAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "BMW.png",
+      "filename" : "BMW.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "BMW@2x.png",
+      "filename" : "BMW@2x.jpeg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "BMW@3x.png",
+      "filename" : "BMW@3x.jpeg",
       "idiom" : "universal",
       "scale" : "3x"
     }
